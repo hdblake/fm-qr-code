@@ -1,12 +1,20 @@
 body {
 	font-family: "Outfit", sans-serif;
 	background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+	font-size: 22px;
+}
+
+p {
 	font-size: 15px;
 }
 
 .container {
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
